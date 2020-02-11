@@ -1,0 +1,36 @@
+{
+  "name": "shopping",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next -p 7777",
+    "build": "next build ",
+    "start": "next start -p 7777"
+  },
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.3",
+    "@apollo/react-ssr": "^3.1.3",
+    "@zeit/next-css": "^1.0.1",
+    "apollo-boost": "^0.4.7",
+    "downshift": "^4.0.6",
+    "graphql": "^14.5.8",
+    "lodash.debounce": "^4.0.8",
+    "next": "9.1.7",
+    "next-apollo": "^3.1.10",
+    "next-with-apollo": "^4.3.0",
+    "nprogress": "^0.2.0",
+    "react": "16.12.0",
+    "react-apollo": "^3.1.3",
+    "react-dom": "16.12.0",
+    "react-loading-skeleton": "^2.0.1",
+    "react-slick": "^0.25.2",
+    "react-tabs": "^3.1.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^4.4.1",
+    "styled-icons": "^9.1.0",
+    "url-loader": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.6"
+  }
+}
